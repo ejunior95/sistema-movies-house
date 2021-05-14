@@ -160,6 +160,7 @@ export default class MenuBuilder {
             shell.openExternal('https://electronjs.org');
           },
         },
+        
         {
           label: 'Documentation',
           click() {
@@ -168,12 +169,14 @@ export default class MenuBuilder {
             );
           },
         },
+
         {
           label: 'Community Discussions',
           click() {
             shell.openExternal('https://www.electronjs.org/community');
           },
         },
+        
         {
           label: 'Search Issues',
           click() {
